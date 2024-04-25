@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unit 1 - lesson 4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); height: 92vh; margin:2px;}
+.buttons{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:30px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:250px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  
+}
+.buttons:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons:active{
+opacity: 0.7;
+}
+
+.buttons1{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:23px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:175px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  
+}
+.buttons1:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons1:active{
+opacity: 0.7;
+}
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:70px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+
+
+.dropdown{ display: flex;}
+ .dropdown button{
+  background-color: #D1E4C4; color: black; padding: 10px 30px;
+  border:none; cursor:pointer; box-shadow: 5px 5px 7px black;
+  transition:0.05s; border-radius:4px;
+ }
+
+ .dropdown a{
+  display: flex; text-decoration: none; text-align: center; padding: 10px 23px; margin-top:10px; background-color: #D1E4C4;
+  color:black; box-shadow: 5px 5px 7px black; border-radius:4px; margin-left:5px;
+ }
+
+ .dropdown .content{
+   position: absolute; min-width:100px;
+  display:none;
+ }
+
+ .dropdown:hover .content{ 
+  display:flex;
+ }
+ .dropdown:hover button{
+  background-color: #F1F7ED; color:black;
+ }
+ .dropdown a:hover{
+  background-color: #F1F7ED; color:black;
+ }
+
+</style>
+</head>
+<body>
+
+
+<h1 class="tooltips"> People + Titles
+</h1>
+
+
+
+<div style=" display: grid; grid-template-columns: 200px 400px 1fr; font-size: 30px; ">
+
+<div style="padding-left: 15px; ">
+<b>Title </b><br><hr>
+&bull; <b>Master </b><br><hr>
+&bull; <b>Mr </b><br><hr>
+&bull; <b>Miss </b><br><hr>
+&bull; <b>Mrs </b><br><hr>
+&bull; <b>Ms</b>
+</div>
+<div style="">
+ <b>Explanation</b><br><hr>
+Young male  <br><hr>
+ Adult male  <br><hr>
+Young or Adult Female <br><hr>
+ Female  <br><hr>
+Female  
+</div>
+<div style="">
+  <b>Example</b><br><hr>
+ <b>Master </b> Wael &emsp;&emsp; &emsp;&emsp;Note: Used with the first name<br><hr>
+ <b>Mr. </b> Robert &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;married or unmarried<br><hr>
+  <b>Miss </b> Sarah &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;unmarried<br><hr>
+ <b>Mrs. </b> Rawan &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;married<br><hr>
+ <b>Ms. </b> Nora &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; married or unmarried
+</div>
+</div><hr><br>
+
+
+</body>
+</html>
